@@ -1,0 +1,1 @@
+function[answer_diameter] = psy_mean_size(size); %for arraysize_area1 = ((size./2).^2).*pi;Exponent = 0.76;psy_area1 = size_area1.^Exponent;psy_area = mean(psy_area1);temp_diameter = (psy_area^(1/Exponent));answer_diameter = 2*sqrt(temp_diameter/pi);
